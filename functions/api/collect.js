@@ -22,7 +22,7 @@ export async function onRequest(context) {
   };
 
   // あなたのGASのウェブアプリURLに書き換え
-  const GAS_URL = 'https://script.google.com/macros/s/AKfycbzPDSP3KV7YwvGlHDJhuR1Qs4YNQq-nYGlqRLATe7-U_0RmKxtyBdNl0GAofX63LMXk1A/exec';
+  const GAS_URL = 'https://script.google.com/macros/library/d/1RN0Qq5CWMLQU_phjVHAYz6DEURPdwX8Q6-PZaK6XpEsMX06WVDAHcs9s/2';
 
   try {
     await fetch(GAS_URL, {
